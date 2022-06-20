@@ -155,6 +155,29 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
 }
 
+.slider-two {
+  margin: 0 0 40px 0;
+}
+.slider-two__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(228, 215, 215);
+  border-radius: 10px;
+}
+.slider-two__title {
+  margin: 0 0 30px 0;
+}
+.slider-two__input {
+  margin: 0 0 20px 0;
+  display: flex;
+}
+.slider-two__min, .slider-two__max {
+  text-align: center;
+  max-width: 50px;
+}
+
 .slider-three__row {
   display: flex;
   align-items: center;
