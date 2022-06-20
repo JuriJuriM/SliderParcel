@@ -1,0 +1,39 @@
+.slider-one{
+    margin: 0 0 30px 0;
+    &__title{
+        font-size: 24px;
+        color: rgb(37, 37, 37);
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    &__inputs{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__label{
+        display: flex;
+        align-items: center;
+        width: 133px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    &__text{
+        font-size: 14px;
+        color: #808080;
+        font-size: 14px;
+    }
+    &__text:first-child{
+        margin-right: 10px;
+    }
+    &__text:last-child{
+        margin-left: 10px;
+    }
+    &__input{
+        color: #242121;
+        padding: 0 10px;
+    }
+}
+

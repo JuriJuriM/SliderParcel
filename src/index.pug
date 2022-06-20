@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./main.scss")
+        link(rel="stylesheet", href="./uisl/nouislider.min.css")
+        title Slider forever
+    body
+        .wrapper
+            .content
+                .block 
+                    .container 
+                        .block__row
+                            .block__title This is my new parcel
+                            .block__text
+                                p I am very proud that I could put parcel on my computer. It was great action! Мне это нравится! I am creating a new sliders!
+                include slider-one
+                include slider-two
+                include slider-three
+        script(src="/uisl/nouislider.min.js")
+        script(src='/index.js')
+        script(src="/uisl/range-slider.js")
