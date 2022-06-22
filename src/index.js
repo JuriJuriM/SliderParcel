@@ -9,6 +9,7 @@ console.log('Hi!');
 
 let range = document.querySelector('.slider-three__input');
 let rangeNum = document.querySelector('.slider-three__num');
+
 range.oninput = function () {
     //console.log(this.value);
     rangeNum.style.left = this.value + 'px';
