@@ -77,11 +77,26 @@
     &__row{
         display: flex;
         align-items: center;
-        //justify-content: center;
         flex-direction: column;
     }
     &__title{
         margin: 0 0 30px 0;
+    }
+    &__label{
+        display: flex;
+    }
+    &__text{
+        margin: 0 10px 0 0;
+    }
+    &__numbers{
+        display: flex;
+    }
+    &__first,
+    &__last{
+        padding: 35px 0 0 0;
+    }
+    &__first{
+        margin: 0 10px 0 0;
     }
     &__range{
         width: 223px;
