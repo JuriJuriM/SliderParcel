@@ -84,6 +84,12 @@
     }
     &__label{
         display: flex;
+        margin: 0 0 10px 0;
+        width: 50px;
+    }
+    &__in{
+        height: 13px;
+        font-size: 14px;
     }
     &__text{
         margin: 0 10px 0 0;

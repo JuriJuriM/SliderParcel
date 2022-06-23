@@ -23163,8 +23163,17 @@ var labelCount = document.querySelector('.slider-three__count');
 range.oninput = function () {
   //console.log(this.value);
   rangeNum.style.left = this.value + 'px';
+  rangeNum.innerHTML = this.value; //labelCount.innerHTML = this.value;
+
+  labelIn.value = this.value;
+};
+
+var labelIn = document.querySelector('.slider-three__in');
+
+labelIn.oninput = function () {
+  rangeNum.style.left = this.value + 'px';
   rangeNum.innerHTML = this.value;
-  labelCount.innerHTML = this.value;
+  range.value = this.value;
 };
 },{"prettier":"../node_modules/prettier/standalone.js","./main":"main.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -23194,7 +23203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65490" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60545" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

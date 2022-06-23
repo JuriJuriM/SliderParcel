@@ -196,6 +196,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .slider-three__label {
   display: flex;
+  margin: 0 0 10px 0;
+  width: 50px;
+}
+.slider-three__in {
+  height: 13px;
+  font-size: 14px;
 }
 .slider-three__text {
   margin: 0 10px 0 0;
