@@ -23158,17 +23158,13 @@ console.log('Hi!'); // Slider number three
 
 var range = document.querySelector('.slider-three__input');
 var rangeNum = document.querySelector('.slider-three__num');
-var labelCount = document.querySelector('.slider-three__count');
+var labelIn = document.querySelector('.slider-three__in');
 
 range.oninput = function () {
-  //console.log(this.value);
   rangeNum.style.left = this.value + 'px';
-  rangeNum.innerHTML = this.value; //labelCount.innerHTML = this.value;
-
+  rangeNum.innerHTML = this.value;
   labelIn.value = this.value;
 };
-
-var labelIn = document.querySelector('.slider-three__in');
 
 labelIn.oninput = function () {
   rangeNum.style.left = this.value + 'px';
